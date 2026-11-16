@@ -1,0 +1,141 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.navbar {
+    background-color: maroon;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+}
+
+
+.nav-links {
+    display: inline-block;
+}
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+        .nav-links a:hover {
+            color: gold;
+        }
+
+.section {
+    padding: 120px 40px 50px 40px;
+    min-height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    .section h2 {
+        display: inline-block;
+        background-color: maroon;
+        color: white;
+        padding: 8px 20px;
+        margin-bottom: 20px;
+    }
+
+.home {
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600");
+}
+
+.about-bg {
+    background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1600");
+}
+
+.edu-bg {
+    background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600");
+    min-height: 600px; 
+}
+
+.skills-bg {
+    background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1600");
+}
+
+.projects-bg {
+    background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1600");
+}
+
+.contact-bg {
+    background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600");
+}
+.box {
+    background-color: white;
+    border: 2px solid maroon;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+    .box p {
+        margin-bottom: 10px;
+    }
+
+    .box h3 {
+        color: maroon;
+    }
+
+    .box ul {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+.built-with {
+    color: green;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: maroon;
+    color: white;
+}
+.social a {
+    display: inline-block;
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+    .social a:hover {
+        background-color: orange;
+    }
+
+.footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
